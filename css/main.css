@@ -1,0 +1,30 @@
+.login .container.body .right_col {
+  margin-left: 0;
+  padding: 10px 0;
+}
+.login footer {
+  display: none;
+}
+.login_content {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  min-width: 280px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: auto;
+}
+.validations_error{}
+.validations_error *{
+	color:red;
+	text-align: left;
+}
+.media_upload .form-control {
+  float: left;
+  width: calc(100% - 86px);
+}
+.media_upload .input-group-btn {
+  float: left;
+}

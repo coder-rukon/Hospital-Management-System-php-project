@@ -1,0 +1,138 @@
+
+
+#rs_dialog #upload{
+    background-color: transparent;
+    background-image: none;
+    border: 0 none;
+    border-radius: 3px;
+    font-family: "PT Sans Narrow",sans-serif;
+    margin: 30px auto;
+    padding: 30px;
+    width: 250px;
+    display: block;
+    width: auto;
+}
+
+#rs_dialog #drop{
+    background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+    border: 2px dashed rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #7f858a;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding: 55px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#rs_dialog #drop a{
+    background-color:#007a96;
+    padding:12px 26px;
+    color:#fff;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    display:inline-block;
+    margin-top:12px;
+    line-height:1;
+    display:block;
+    width:100px;
+    margin:20px auto;
+}
+
+#rs_dialog #drop a:hover{
+    background-color:#0986a3;
+}
+
+#rs_dialog #drop input{
+    display:none;
+}
+
+#rs_dialog #upload ul{
+    list-style:none;
+    margin:0 -30px;
+}
+
+#rs_dialog #upload ul li{
+
+    background-color:#333639;
+
+    background-image:-webkit-linear-gradient(top, #333639, #303335);
+    background-image:-moz-linear-gradient(top, #333639, #303335);
+    background-image:linear-gradient(top, #333639, #303335);
+
+    border-top:1px solid #3d4043;
+    border-bottom:1px solid #2b2e31;
+    padding:15px;
+    height: 52px;
+
+    position: relative;
+}
+
+#rs_dialog #upload ul li input{
+    display: none;
+}
+
+#rs_dialog #upload ul li p{
+    width: 144px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #EEE;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+#rs_dialog #upload ul li i{
+    font-weight: normal;
+    font-style:normal;
+    color:#7f7f7f;
+    display:block;
+}
+
+#rs_dialog #upload ul li canvas{
+    top: 15px;
+    left: 32px;
+    position: absolute;
+}
+
+#rs_dialog #upload ul li span{
+    width: 15px;
+    height: 12px;
+    background: url('../img/icons.png') no-repeat;
+    position: absolute;
+    top: 34px;
+    right: 33px;
+    cursor:pointer;
+}
+
+#rs_dialog #upload ul li.working span{
+    height: 16px;
+    background-position: 0 -12px;
+}
+
+#rs_dialog #upload ul li.error p{
+    color:red;
+}
+
+
+#rs_dialog .media_list{}
+#rs_dialog .media_list .row{
+    margin:0;
+}
+#rs_dialog .media_list .row>div{
+    margin:0;
+    padding:5px 2px;
+}
+#rs_dialog .media_list .thumbnail {
+  height: 180px;
+}
+#rs_dialog .media_list .caption > strong {
+  display: block;
+  font-size: 11px;
+  height: 32px;
+  overflow: hidden;
+}
