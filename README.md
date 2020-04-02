@@ -37,3 +37,8 @@ Hospital Management System php project for final year university students free d
 <img src="https://lh6.googleusercontent.com/YXE4jAnB_CJznOZ3YTIsyiMrqmy1Jkk-t4aqecEWQr8PvyvWCRezC7EE_8iBVkzqGUFCBydIS9nULbAm8ABw=w1280-h888">
 More screenshot:
 https://drive.google.com/open?id=1MzCn77LxilevsqaCCaRMESF63wTxnLPr
+
+#tags
+<h2>final year projects for computer science</h2>
+<h2>mini projects for computer science students</h2>
+<h2>final year project ideas computer science</h2>
