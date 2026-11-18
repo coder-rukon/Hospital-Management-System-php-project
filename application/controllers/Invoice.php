@@ -81,6 +81,7 @@ class Invoice extends CI_Controller {
 
 	}
 	public function print($id = null){
+		only_access(array("doctor","admin"));
 		$this->body_Data['invoice'] = $this->Invoice_model->Get_Data(array("id" => $id));
 		$this->load->view('invoice/print',$this->body_Data);
 	}
